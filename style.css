@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0}
+
+.footer-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+header{
+    position: absolute;
+    top: 10px;
+    width: calc(100vw);
+    padding: 0 !important;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: calc(100vw);
+    padding: 0 !important;
+}
+
+footer .container, header .container{
+    background-color: #dd8500;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: inherit;
+}
+
+header .container{
+    background-color: #fff;
+}
+
